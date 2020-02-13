@@ -5,7 +5,7 @@ pipeline {
         stage('Cloning') {
             steps {
                 echo 'I am cloning git branch..'
-                git 'https://github.com/ashwaqar/my_scripts.git'
+                git 'https://github.com/Anushaaravind/countingshell_scripts.git'
             }
         }
         stage('Run') {
