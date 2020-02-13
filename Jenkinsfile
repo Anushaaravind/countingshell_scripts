@@ -11,7 +11,7 @@ pipeline {
         stage('Run') {
             steps {
                 echo 'runnning list.sh ..'
-                sh label: 'Running list', script: 'sudo sh list.sh'
+                sh label: 'Running list', script: 'sh list.sh'
             }
         }
         stage('Test') {
